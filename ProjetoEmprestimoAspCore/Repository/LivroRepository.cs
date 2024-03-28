@@ -67,7 +67,33 @@ namespace ProjetoEmprestimoAspCore.Repository
 
         public IEnumerable<Livro> ObterTodosOsLivros()
         {
-            throw new NotImplementedException();
+            List<Livro> livroList = new List<Livro>();
+            using (var conexao = new MySqlConnection(_Conexao))
+            {
+                conexao.Open();
+
+                MySqlCommand cmd = new MySqlCommand("SELECT * FROM livro_tb ", conexao);
+
+
+                MySqlDataAdapter mySqlDataAdapter = new MySqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+
+                mySqlDataAdapter.Fill(dt);
+                conexao.Close();
+
+                foreach (DataRow dr in dt.Rows) 
+                {
+                    livroList.Add(
+                        new Livro
+                        {
+                            idLivro = (int)dr["idlivro"],
+                            nameLivro = (string)dr["nameLivro"],
+                            imgLivro = (string)dr["imgLivro"]
+                        });
+                }
+                return livroList;
+            }
         }
     }
 }
+
