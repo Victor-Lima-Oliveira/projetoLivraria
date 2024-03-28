@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+tLsdW6tXj5iGZ9/vr6TgQYan26zB+6qHeEoWSctCa0=",
+  "Hash": "kJKJYVSWcdluiyMkGbI50aXIBQwlkoMZacbrCkzQ/7M=",
   "Source": "ProjetoEmprestimoAspCore",
   "BasePath": "_content/ProjetoEmprestimoAspCore",
   "Mode": "Default",
@@ -16,6 +16,44 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\3DS\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\3DS\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\3DS\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\3DS\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\QuickGrid.razor.js",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\3DS\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "QuickGrid.razor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\3DS\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\QuickGrid.razor.js"
+    },
     {
       "Identity": "C:\\Users\\3DS\\Documents\\3DsSegundo\\ProjetoEmprestimoAspCore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProjetoEmprestimoAspCore.styles.css",
       "SourceId": "ProjetoEmprestimoAspCore",
@@ -91,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\3DS\\Documents\\3DsSegundo\\ProjetoEmprestimoAspCore\\wwwroot\\Imagen\\Captura de tela 2024-03-13 141119.png",
+      "SourceId": "ProjetoEmprestimoAspCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\3DS\\Documents\\3DsSegundo\\ProjetoEmprestimoAspCore\\wwwroot\\",
+      "BasePath": "_content/ProjetoEmprestimoAspCore",
+      "RelativePath": "Imagen/Captura de tela 2024-03-13 141119.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagen\\Captura de tela 2024-03-13 141119.png"
     },
     {
       "Identity": "C:\\Users\\3DS\\Documents\\3DsSegundo\\ProjetoEmprestimoAspCore\\wwwroot\\js\\site.js",
