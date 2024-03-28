@@ -1,7 +1,12 @@
+using ProjetoEmprestimoAspCore.Repository.Contrato;
+using ProjetoEmprestimoAspCore.Repository;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<ILivroRepository, LivroRepository>();
 
 var app = builder.Build();
 
